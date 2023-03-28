@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Uber Eats Courier",
-    "slug": "UberEatsCourier",
+    "slug": "ubereatscourier",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -30,8 +30,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "10389692-56d9-40c8-b195-312da62835b6"
+        "projectId": "17e26362-6f07-45a0-b6f6-525dec0267ad"
       }
-    }
+    },
+    "owner": "bobish"
   }
 }
