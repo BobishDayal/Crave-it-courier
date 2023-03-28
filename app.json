@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "UberEatsCourier",
+    "name": "Uber Eats Courier",
     "slug": "UberEatsCourier",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.bobish.UberEatsCourier"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "10389692-56d9-40c8-b195-312da62835b6"
+      }
     }
   }
 }
